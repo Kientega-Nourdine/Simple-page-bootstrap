@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link me-2"> Se connecter</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="btn btn-success"> S'incrire</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header text-center p-5">
+        <div class="container">
+            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora eligendi maiores fugit dolor adipisci minus.</span>
+            <button class="btn btn-primary ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal" > Soucrire</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog text-dark">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Fermer le popup"></button>
+                    </div>
+                    <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, suscipit?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, facere.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </section>
+
+      <section class="main-page py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 ">
+                    <img  src="/assets/img/istockphoto-1455160776-1024x1024.webp" alt="food-img" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="p-3">Lorem ipsum dolor sit amet, consectetur </h1>
+                    <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi tenetur quos porro exercitationem aperiam corrupti aliquam eos eveniet. Perspiciatis modi facilis ullam autem! Minus cupiditate magni quod soluta? Hic, quaerat.
+                    Accusantium, quasi deserunt aspernatur quae aliquid, quis veniam expedita sint a quia in, odit atque iusto. Laborum deleniti odit animi aspernatur, libero culpa ratione soluta tempora veniam fuga autem explicabo.</p>
+                    <form class="p-3">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Adresse email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <button class="input-group-text btn btn-primary" > S'incrire</button>
+                          </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </section>
+      <script src="/assets/js/bootstrap.bundle.min.js"></script>
+      <script src="/assets/js/script.js"></script>
+</body>
+</html>
